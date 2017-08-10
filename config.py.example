@@ -1,0 +1,11 @@
+oauth_config = {
+    'YOUR_CONSUMER_KEY': '',
+    'YOUR_CONSUMER_SECRET': '',
+    'OAUTH_TOKEN': '',
+    'OAUTH_TOKEN_SECRET': ''
+}
+
+my_blog = 'you-blog-name.tumblr.com'
+
+blogs_info_name = 'path/reblog_blogs_info.json'
+#example {"blog_name": [(int)end_id, (int)start_id, (boolean)end]}
