@@ -163,6 +163,9 @@ class Blogs:
     def __getitem__(self, item):
         return self.data.get(item)
 
+    def keys(self):
+        return self.data.keys()
+
     def get(self, item):
         return self.data.get(item, [0, 0, False])
 
