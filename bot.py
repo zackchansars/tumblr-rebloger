@@ -118,7 +118,6 @@ def reblog_a_blog(client, blogs, blog_name, reblog_to_blog):
             exit(1)
         else:
             print(e)
-            exit(2)
 
 
 def init_client():
@@ -196,7 +195,6 @@ def dd_blog(blog_name):
 
 
 if __name__ == '__main__':
-
 
     blogs = Blogs(blogs_info_name)
 
